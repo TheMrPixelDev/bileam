@@ -1,10 +1,10 @@
 "use strict";
 
-import DataStore from "./lib/datastore.js";
 import {
-  attachInputToStateUpdate,
+  DataStore,
   attachClickToStateUpdate,
-} from "./lib/utils.js";
+  attachInputToStateUpdate,
+} from "./lib/bileam.js";
 
 const textData = new DataStore("");
 const numberData = new DataStore(0);
